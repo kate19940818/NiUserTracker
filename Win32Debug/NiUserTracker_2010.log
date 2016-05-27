@@ -1,0 +1,30 @@
+﻿已經開始建置於 2015/3/3 下午 04:38:23。
+     1>節點 2 (build 目標) 上的專案 "C:\Program Files (x86)\OpenNI\Samples\NiUserTracker\NiUserTracker_2010.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Win32Debug\NiUserTracker.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenNI\Include" /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32Debug\\" /Fd"Win32Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ResourceCompile:
+         所有輸出都是最新的。
+       ManifestResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Bin/Debug\NiUserTracker.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenNI\Lib" /LIBPATH:./Libs openNI.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32Debug\NiUserTracker.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\OpenNI\Samples\Bin\Debug\NiUserTracker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../Bin/Debug\NiUserTracker.lib" /MACHINE:X86 Win32Debug\OpenNI.res
+         Win32Debug\NiUserTracker.exe.embed.manifest.res
+         Win32Debug\main.obj
+         Win32Debug\SceneDrawer.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32Debug\NiUserTracker.exe.embed.manifest" /manifest Win32Debug\NiUserTracker.exe.intermediate.manifest
+         所有輸出都是最新的。
+       LinkEmbedManifest:
+         所有輸出都是最新的。
+         NiUserTracker_2010.vcxproj -> C:\Program Files (x86)\OpenNI\Samples\NiUserTracker\../Bin/Debug\NiUserTracker.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Win32Debug\NiUserTracker.unsuccessfulbuild"。
+         正在變更時間戳記 "Win32Debug\NiUserTracker.lastbuildstate"。
+     1>專案 "C:\Program Files (x86)\OpenNI\Samples\NiUserTracker\NiUserTracker_2010.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:06.68
